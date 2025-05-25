@@ -1,0 +1,49 @@
+# === Android/IntelliJ ===
+*.iml
+.gradle/
+.idea/
+local.properties
+.DS_Store
+/build/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# === Sign/Keystore ===
+*.jks
+*.keystore
+
+# === OS/Editor ===
+*.log
+*.swp
+*.swo
+*.tmp
+*.orig
+*.bak
+*~
+
+# === APK/Outputs ===
+*.apk
+*.ap_
+/app/release/
+/app/debug/
+
+# === Room Schema JSON (optional) ===
+/app/schemas/
+
+# === Kotlin/Java ===
+*.class
+*.jar
+*.war
+*.ear
+
+# === Log/Reports ===
+/*.log
+/test-results/
+*/build/reports
+
+# === NDK/CMakelists cache ===
+.cmake/
+
+# === Others ===
+*.hprof
